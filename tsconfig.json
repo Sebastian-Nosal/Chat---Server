@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "experimentalDecorators": true,
+        "rootDir": "./",
+        "outDir": "./",
+        "moduleResolution": "node16",
+        "esModuleInterop": true,
+        "module": "ES2015"
+    },
+    
+    "include": ["**/*"],
+    "exclude": ["*/tests", "**/*.spec.ts", "**/node_modules"]
+}
